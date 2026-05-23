@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--suite name="Suite" -->
+<suite name="iNetBankingSDET">
+
+
+	<listeners>
+		<listener
+			class-name="com.iNetBankingSDET.utilities.ListenersSDET" />
+	</listeners>
+
+
+	<test thread-count="5" name="Banking App Test">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<!-- <class name="com.iNetBankingSDET.testCases.BaseClass"/> -->
+			<!-- <class name="com.iNetBankingSDET.testCases.TC_LoginTest_001"/> -->
+			<!-- <class name="com.iNetBankingSDET.testCases.TC_LoginTest_Excel_002" /> -->
+			<class name="com.iNetBankingSDET.testCases.TC_Add_NewCustomer" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

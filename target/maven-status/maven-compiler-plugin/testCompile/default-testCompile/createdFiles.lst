@@ -1,0 +1,12 @@
+com\iNetBankingSDET\utilities\ReadConfig.class
+com\iNetBankingSDET\testCases\TC_Add_NewCustomer.class
+com\iNetBankingSDET\testCases\BaseClass.class
+com\iNetBankingSDET\testCases\TC_LoginTest_Excel_002.class
+com\iNetBankingSDET\utilities\DataProvidersSDET.class
+com\iNetBankingSDET\pageObjects\LoginPage.class
+com\iNetBanking\testData\ExtentReportSDET.class
+com\iNetBankingSDET\testCases\TC_LoginTest_001.class
+com\iNetBankingSDET\utilities\ExcelUtilsSdet.class
+com\iNetBankingSDET\utilities\ListenersSDET.class
+com\iNetBankingSDET\utilities\Reporting.class
+com\iNetBankingSDET\pageObjects\AddCustomer.class
