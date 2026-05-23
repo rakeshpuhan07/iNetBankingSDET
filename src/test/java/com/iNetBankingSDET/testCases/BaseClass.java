@@ -36,7 +36,7 @@ public class BaseClass {
 	public String Password = readConfig.getPassword();
 	public String title = "Guru99 Bank Manager HomePage";
 //	public static Logger logger;
-	protected Logger logger = LogManager.getLogger(BaseClass.class);
+	protected static final Logger logger = LogManager.getLogger(BaseClass.class);
 	
 	
 	@Parameters("browser")
